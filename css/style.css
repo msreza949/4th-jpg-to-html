@@ -1,0 +1,102 @@
+/**Default Css**/
+
+*{
+	margin: 0
+}
+body{
+	background: url('../img/bg/1.jpg') no-repeat;
+	background-size:cover;
+	font-family: 'Lato', sans-serif;
+}
+.overlay {
+	width: 100%;
+	background: #38353566;
+	min-height: 1000px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.top {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 260px;
+	padding-top: 20px;
+}
+.top .title {
+	float: left;
+	color: #fff;
+	font-size: 30px;
+}
+.top .top-menu{
+	float: right;
+}
+.top .top-menu li{
+	float: left;
+	list-style: none;
+}
+.top .top-menu li span{
+	padding: 3px;
+}
+.top .top-menu li a {
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+}
+.top .top-menu li img {
+	width: 10px;
+	height: 10px;
+	padding: 2px;
+	display: block;
+	float: right;
+	margin-top: 5px;
+}
+.main-body {
+	background: #fff;
+	width: 600px;
+	margin: 0 auto;
+	padding: 35px 65px 65px 65px;
+	min-height: 200px;
+}
+.main-body p {
+	padding: 0 0 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.main-body h1 {
+	text-align: center;
+	padding: 30px 0 60px 0;
+	font-size: 35px;
+}
+.main-body .btn1 {
+	width: 125px;
+	padding: 15px 0 15px 0;
+	margin: 0 auto;
+	display: block;
+	float: left;
+	margin-left: 155px;
+	border: 1px solid #787575;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #514f4f;
+}
+.main-body .btn2 {
+	width: 125px;
+	padding: 15px 0 15px 0;
+	margin: 0 auto;
+	display: block;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid #444242;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #f9eeee;
+	background-color: #302d2d;
+}
