@@ -3,15 +3,17 @@
 *{
 	margin: 0
 }
-body{
+body {
 	background: url('../img/bg/1.jpg') no-repeat;
-	background-size:cover;
+	background-size: cover;
 	font-family: 'Lato', sans-serif;
+	background-position: -515px 0;
 }
 .overlay {
 	width: 100%;
-	background: #38353566;
+	background: #38353533;
 	min-height: 1000px;
+	max-height: 100%;
 }
 .container{
 	width: 1140px;
@@ -21,8 +23,8 @@ body{
 	width: 100%;
 	margin: 0 auto;
 	display: block;
-	padding-bottom: 260px;
-	padding-top: 20px;
+	padding-bottom: 265px;
+	padding-top: 65px;
 }
 .top .title {
 	float: left;
